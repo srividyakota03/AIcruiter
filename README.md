@@ -16,11 +16,19 @@ AIcruiter is an AI-powered resume screening tool that allows candidates to evalu
 - **PyPDF2**: A Python library for extracting text from PDF files.
 - **HTML/CSS**: For the frontend user interface with custom styling.
 - **Google API**: For sending emails and scheduling interviews (optional for future updates).
+  
+## How to Use
+**Launch the Application:**
+After running the app, open the provided Ngrok URL or local URL in your browser.
+Fill in Your Details: Enter your full name and email address in the provided fields.
+Input the Job Description: Paste the job description text into the specified field.
+Upload Your Resume: Upload your resume in PDF format (the system only accepts PDFs).
+Get Instant Feedback: The AI will analyze the job description and your resume, providing immediate results, such as:
+"YES": Your resume matches the job description (possible interview invitation).
+"NO": Your resume doesn’t match the job description (polite rejection).
 
-## Requirements
-
-- Python 3.x
-- Flask
-- Flask-Ngrok
-- PyPDF2
-- Werkzeug
+## Key Highlights
+- **Instant Results:** Get feedback immediately after uploading your resume and job description.
+- **AI-Powered:** AI algorithms help simulate the decision-making process of a recruiter.
+- **Polite Communication:** Receive professional rejection emails or interview invitations.
+- **Easy Integration with Google:** Future updates will allow sending interview invites directly through Google Calendar.
